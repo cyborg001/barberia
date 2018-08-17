@@ -73,7 +73,7 @@ app.listen(5000,()=>{
 			if(err){
 				console.log("Error: "+err);
 			}else{
-				res.end('success');
+				console.log('success');
 			}
 		})
 	}
