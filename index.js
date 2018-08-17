@@ -67,7 +67,7 @@ app.listen(5000,()=>{
 	console.log('Listening on port 5000')
 	let hora = new Date().getHours();
 	console.log(hora);
-	if(hora >= 24){
+	if(hora >= 21){
 		console.log('esta es la hora '+hora)
 		Cliente.remove({},function(err){
 			if(err){
